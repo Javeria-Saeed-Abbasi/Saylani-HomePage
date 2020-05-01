@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Rollno:"WM4612" Name:"Javeria Saeed Abbasi"-->
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="image/JSA.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Font Awsome cdn link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Custom Css file -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <title>Assignment 3</title>
+</head>
+<body>
+  
+        <div class="row text-white text-center bg-primary " id="first-nav">
+            <div class="col-md-3" id="social-icon" >
+              <ul>
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-youtube"></i></li>      
+                <li><button class="btn-success"><i class="fa fa-whatsapp"></i></button></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+            <p>"Millions of people's life has changed, millions more awaiting your donation"</p>  
+            </div>
+            <div class="col-md-3">
+                <button>UK Donor</button>
+                <button>Donate Now</button>
+                <button>SMIT Result</button>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <header class="sticky-top">
+        <nav class="navbar navbar-expand-md sticky-top bg-light" id="second-nav">
+            <a class="navbar-brand" href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" height="52px;"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fa fa-bars" style="color:rgb(9, 187, 54); font-size:28px;"></i>
+              </span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="#">Introduction</a>
+                    <a class="dropdown-item" href="#">Chairman Message</a>
+                    <a class="dropdown-item" href="#">Saylani Annual Report</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Saylani Services</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item dropdown-toggle" href="#" id="dropdown04"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Education</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" tabindex="-1" href="">Action</a></li>
+                        <li><a class="dropdown-item" tabindex="-1" href="">Action</a></li>
+                        <li><a class="dropdown-item" tabindex="-1" href="">Action</a></li>
+                      </ul>
+                    <a class="dropdown-item" href="#">Welfare</a>
+                    <a class="dropdown-item" href="#">Medical</a>
+                  </div>
+                </li>
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Future Projects</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Media <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donation</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+        </header>
+          <!-- Craousel -->
+          <div id="demo" class="carousel slide " data-ride="carousel ">
+  
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
+              <li data-target="#demo" data-slide-to="6"></li>
+            </ul>
+            <hr class="transition-timer-carousel-progress-bar" />
+            <!-- The slideshow -->
+            <div class="carousel-inner carousel-imgs">
+              
+              <div class="carousel-item active">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Banner.jpeg" alt="saylani" width="100%" height="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Corona%20Banner.jpeg" alt="corona" class=" img-responsive corona-img" width="100%" height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png" alt="slider1" width="100%" height="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/slider2.png" alt="slider2" width="100%" height="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/ehsaas&saylani.jpeg" alt="ehsaas" width="100%" height="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/BloodBank_Slider.jpg" alt="blood bank" width="100%" height="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.saylaniwelfare.com/public_html/images/saylani/RotiBank_Slider.jpg" alt="roti bank" width="100%" height="">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <br/>
+      <!-- marquee -->
+      <center><marquee width="90%" direction="left" height="30px"  class="text-white" id="marquee-1" onmouseover="this.stop();" onmouseout="this.start();">
+        <span class="green">(News-1 Dated:15-06-2019)</span>  PIAICNext Phase Admission in Islamabad And Faisalabad" . <span class="blue">More Details </span>   <span class="green">(News-2 Dated:15-05-2019)</span>  Saylani Welfare Announced "Donation Application" . <span class="blue">More Details</span>    <span class="green">(News-3 Dated:07-05-2019)</span>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . <span class="blue"></span> Details    (News-4 Dated:08-03-2019)  Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. More Details    (News-5 Dated:25-02-2019)  PIAIC Entrance Exam Merit Ranking List Announced. More Details   (News-6 Dated:23-02-2019)  President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details    (News-7 Dated:19-02-2019)  Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details        </marquee></center>
+        <br/><br/>
+        <!-- Introduction -->
+        <div class="container">
+          <h2 class="text-center text-uppercase text-primary">INTRO<span class="text-success">DUCTION</span></h2>
+          <center>
+            <div class="title-icon d-flex justify-content-center"><hr class="green-line"/><img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" height="40px;"/><hr class="green-line"/>
+            </div>
+          </center>
+          <!-- For intro text -->
+          &nbsp;
+          <p>
+            Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+          </p>
+          <p>
+            We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially.
+          </p>
+         <p>
+            Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis.
+          </p>
+          <p>
+            We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need.
+          </p>
+
+        </div>
+      
+        <!-- Counter -->
+        <div class="container-fluid counter-container bg-primary">
+          <div class="row">
+              <div class="four col-md-3">
+                  <div class="counter-box colored"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_food_png.png" height="40px;"/> <span class="counter h2">125000</span>
+                      <h5>DAILY DASTARKHUWAN<span class="green">(MONTHLY)</span></h5>
+                  </div>
+              </div>
+              <div class="four col-md-3">
+                  <div class="counter-box"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_family_png.png"height="40px;"/> <span class="counter">7500</span>
+                       <h5>FAMILY ADOPTION<span class="green">(MONTHLY)</span></h5>
+                  </div>
+              </div>
+              <div class="four col-md-3">
+                  <div class="counter-box"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_medical_png.png"height="40px;" /> <span class="counter">43749</span>
+                    <h5>MEDICAL<span class="green">(MONTHLY)</span></h5>
+                  </div>
+              </div>
+              <div class="four col-md-3">
+                  <div class="counter-box"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_education_png.png"height="40px;" /> <span class="counter">180000</span>
+                    <h5>EDUCATION<span class="green">(MONTHLY)</span></h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- /counter -->
+      <br/>
+      <br/>
+      <!-- What we are doing -->
+      <div class="conatiner bg-light">
+        <h2 class="text-center text-uppercase text-primary">WHAT WE<span class="text-success">  ARE DOING?</span></h2>
+        <center>
+          <div class="title-icon d-flex justify-content-center"><hr class="green-line"/><img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" height="40px;"/><hr class="green-line"/>
+          </div>
+        </center>
+        <div class="container">
+          <div class="row">
+          
+             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded"> 
+                  <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/onlinesadqah.png" width="70px;"></a>
+                <br/><br/>
+                 <div class="title">
+                 <h4>ONLINE SADQAH</h4>
+               </div>
+            </div>
+           </div>	 
+           
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded">
+                 
+              <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/welfare.png" width="70px;"></a>
+              <br/><br/>      
+               <div class="title">
+                 <h4>WELFARE</h4>
+               </div>
+              </div>
+           </div>	 
+           
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded">
+                           
+              <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/medical.png" width="70px;"></a>
+              <br/><br/> 
+               <div class="title">
+                 <h4>MEDICAL</h4>
+               </div>
+              </div>
+           </div>	 
+           
+           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded">
+                           
+              <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Dastarkhwan.png" width="70px;"></a>
+              <br/><br/> 
+               <div class="title">
+                 <h4>DASTARKHWAN</h4>
+               </div>
+            
+              </div>
+           </div>	 
+           
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded">
+              <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/ROPLANT.png" width="70px;"></a>
+              <br/><br/> 
+               <div class="title">
+                 <h4>RO PLANT</h4>
+               </div>
+                  
+              </div>
+           </div>	 
+           
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  
+             <div class="box-part text-center shadow-lg p-3 mb-5 bg-white rounded">
+                           
+              <a href="#"> <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/education.png" width="70px;"></a>
+              <br/><br/> 
+               <div class="title">
+                 <h4>EDUCATION</h4>
+               </div>
+              </div>
+           </div>
+       
+       </div>		
+       </div>
+
+      </div>
+      <!-- /What we are doing -->
+      <br/>
+      <br/>
+      <!-- Missions -->
+      <div class="container pb-30">
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="mission-h4">MISSION AND UPCOMING PROJECTS</h4>
+                <hr class="mission-hr">
+                    <br/>
+                    <!-- projects -->
+                    <div class="container">
+                        <div class="row mbr-justify-content-center">
+                            <div class="col-md-6 ">
+                                <div class="wrap bg-light">
+                                    <div class="ico-wrap">
+                                        <span class=""><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Hepatitis.png" alt="Hepatitis" width="40px"/></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">HEPATITIS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="wrap bg-light">
+                                    <div class="ico-wrap">
+                                        <span class=""><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/housing.png" alt="Housing" width="40px"/></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">HOUSING SOCIETY
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- /1st row -->
+                        </div>
+                        <!-- 2nd row starts-->
+                        <div class="row mbr-justify-content-center">
+                            <div class="col-md-6 ">
+                                <div class="wrap">
+                                    <div class="ico-wrap bg-light">
+                                        <span class=""><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/IT.png" alt="literacy" width="40px"/></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">LITERACY</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="wrap">
+                                    <div class="ico-wrap bg-light">
+                                        <span class=""><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/tharparkar.png" alt="tharparkar" width="40px"/></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">THARPARKAR
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- /project 2nd row ends here-->
+                        </div>
+
+                    <!-- /projects container end here -->
+                    </div>
+                    <!-- /1st main col ends here -->
+               </div>
+               
+            <!-- UPDATE -->
+                <div class="col-md-4">
+                    <h4 class="mission-h4">UPCOMING EVENTS</h4>
+                      <hr class="mission-hr"/>
+                    <div class="card mb-3" >
+                        <div class="card-body">
+                         
+                          <p class="card-text">
+                            <center>
+                              <marquee width="90%" direction="up" height="200px"   class="text-secondary" onmouseover="this.stop();" onmouseout="this.start();">
+                                <p>Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan <a href="">More Details</a>
+                                  <br/><br/>
+                                Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad .<a href="">More Details</a>
+                                <br/><br/>
+                                Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .<a href="">More Details</a>
+                                <br/><br/>
+                                PIAIC Entrance Exam Merit Ranking List Announced.<a href="">More Details</a>
+                                <br/><br/>
+                                President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="">More Details</a>
+                                
+                                
+                              </marquee>
+                           </center>
+                        </p>
+                       
+                
+                </div>
+
+
+          <!--/ main row -->
+        </div>
+        <!-- /CONTAINER -->
+    </div>
+    
+      <!-- /mission -->
+      
+      <!-- ==================================**************GALLERY****************================================================== -->
+      
+      <div class="container">
+        <br/><br/><br/>
+        <h2 class="text-center text-uppercase text-primary">IMAGE<span class="text-success"> GALLERY</span></h2>
+        <center>
+          <div class="title-icon d-flex justify-content-center"><hr class="green-line"/><img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" height="40px;"/><hr class="green-line"/>
+          </div>
+        </center>
+        <br/><br/>
+        <div class="container" id="gallery" >
+          <!--Carousel Wrapper-->
+       <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+       
+           <!--Controls-->
+           <!-- <div class="controls-top">
+             <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+             <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+           </div> -->
+           <!--/.Controls-->
+         
+           <!--Slides-->
+           <div class="carousel-inner" role="listbox">
+         
+             <!--First slide-->
+             <div class="carousel-item active carousel-item-active">
+               <div class="row" id="gallery-row">
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img onclick="openModal();currentSlide(1)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"
+                    alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb- gallery-col-3">
+                 <div class="card">
+                   <img onclick="openModal();currentSlide(2)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img onclick="openModal();currentSlide(3)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img onclick="openModal();currentSlide(4)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+               <!-- /1st row -->
+               </div>
+       
+             </div>
+             <!--/.First slide-->
+         
+             <!--Second slide-->
+             <div class="carousel-item">
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(5)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(6)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(7)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(8)" class="hover-shadow cursor" src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+             </div>
+             <!--/.Second slide-->
+         
+             <!--Third slide-->
+             <!-- <div class="carousel-item">
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(9)" class="hover-shadow cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(10)" class="hover-shadow cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img  onclick="openModal();currentSlide(11)" class="hover-shadow cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+               <div class="col-md-3 mb-3 gallery-col-3">
+                 <div class="card">
+                   <img onclick="openModal();currentSlide(12)" class="hover-shadow cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+                     alt="Card image cap">
+                 </div>
+               </div>
+         
+             </div> -->
+             <!--/.Third slide-->
+         
+           </div>
+           <!--/.Slides-->
+         
+         </div>
+         <!--/.Carousel Wrapper-->
+       
+       
+         <!-- Modal -->
+         <div id="myModal" class="modal">
+           <span class="close cursor" onclick="closeModal()">&times;</span>
+           <div class="modal-content">
+         
+             <div class="mySlides">
+               <div class="numbertext">1 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg" style="width:100%">
+             </div>
+         
+             <div class="mySlides">
+               <div class="numbertext">2 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg" style="width:100%">
+             </div>
+         
+             <div class="mySlides">
+               <div class="numbertext">3 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg" style="width:100%">
+             </div>
+             
+             <div class="mySlides">
+               <div class="numbertext">4 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg" style="width:100%">
+             </div>
+             <div class="mySlides">
+               <div class="numbertext">5 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" style="width:100%">
+             </div>
+        
+             <div class="mySlides">
+               <div class="numbertext">6 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" style="width:100%">
+             </div>
+       
+             <div class="mySlides">
+               <div class="numbertext">7 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg" style="width:100%">
+             </div>
+       
+             <div class="mySlides">
+               <div class="numbertext">8 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg" style="width:100%">
+             </div>
+       
+             <div class="mySlides">
+               <div class="numbertext">9 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg" style="width:100%">
+             </div>
+       
+             <div class="mySlides">
+               <div class="numbertext">10 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg" style="width:100%">
+             </div>
+       
+             <div class="mySlides">
+               <div class="numbertext">11 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg" style="width:100%">
+             </div>
+             
+             <div class="mySlides">
+               <div class="numbertext">12 / 12</div>
+               <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg" style="width:100%">
+             </div>
+             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         
+             <div class="caption-container">
+               <p id="caption"></p>
+             </div>
+         
+         
+             <!-- <div class="col-md-3 mb-3">
+               <img class="demo cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+             </div>
+             <div class="col-md-3 mb-3">
+               <img class="demo cursor" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+             </div>
+             <div class="col-md-3 mb-3">
+               <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+             </div>
+             <div class="col-md-3 mb-3">
+               <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+             </div> -->
+           </div>
+         </div>
+       
+         <!-- =============/ carousel gallery conatiner ends===========================-->
+         </div>
+        <!--/ main gallery container -->
+      </div>
+    </div>
+  </div>
+      <!-- ==========/GALLERY========== -->
+<br/><br/>
+      <!--========================== Footer ======================================-->
+      <div class="container-fluid  bg-dark">
+        <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>Head Office</h6>
+          <p>A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+					<ul class="list-unstyled quick-links" id="phone-col">
+						<li><a href="#"><i class="fa fa-phone"></i>UAN: 111-729-526</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i>CELL: 92-311-1729526</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i>UK NO (+44)115 970 6256</a></li>
+						<li><a href="#"><i class="fa fa-globe"></i>(+0092-213) 4130786-90</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>USA NO +1(716)941 7792</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> info@saylaniwelfare.com</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Useful Links</h5>
+          <hr class="mission-hr"/>
+					<!-- <ul class="list-unstyled quick-links">
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul> -->
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Connect With Us </h5>
+					<ul class="list-unstyled quick-links list-inline social">
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+      </div>
+    </div>
+  </section>
+     			<div class="row text-white bg-primary">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2">
+          <div class="container">
+            <p>Copyright © 2020 Saylani Welfare</p>
+          </div>
+				</div>
+				<hr>
+			</div>	
+    
+		
+	
+	<!-- ./Footer -->
+
+	
+</div>
+	<!-- ./Footer -->
+
+      <!-- Gallery JS -->
+      <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" carousel-item-active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " carousel-item-active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+    
+       <!--Counter Js  -->
+       <script>
+        $(document).ready(function() {
+  
+  $('.counter').each(function () {
+  $(this).prop('Counter',1000).animate({
+  Counter: $(this).text()
+  }, {
+  duration: 19000,
+  easing: 'swing',
+  step: function (now) {
+  $(this).text(Math.ceil(now));
+  }
+  });
+  });
+  
+  });
+      </script>
+
+<!-- js for banner slider -->
+          <script>
+            $(document).ready(function(){
+                var percent = 0, bar = $('.transition-timer-carousel-progress-bar'), crsl = $('#myCarousel');
+                function progressBarCarousel() {
+                  bar.css({width:percent+'%'});
+                 percent = percent +0.6;
+                  if (percent>100) {
+                      percent=0;
+                      crsl.carousel('next');
+                  }      
+                }
+                crsl.carousel({
+                    interval: false,
+                    pause: true
+                }).on('slid.bs.carousel', function () {});var barInterval = setInterval(progressBarCarousel, 30);
+                crsl.hover(
+                    function(){
+                        clearInterval(barInterval);
+                    },
+                    function(){
+                        barInterval = setInterval(progressBarCarousel, 30);
+                    })
+              });
+          </script>
+          
+         
+</body>
+</html>
